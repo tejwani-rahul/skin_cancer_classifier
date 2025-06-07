@@ -111,13 +111,12 @@ Run the Gradio interface to perform inference on uploaded images interactively.
 
 A Gradio web app is included to interactively upload skin lesion images and get classification results with confidence scores.
 
-To launch the demo, run:
 
-```python
-interface.launch(share=True)
-```
+![Benign keratosis-like lesions (bkl)](https://github.com/tejwani-rahul/skin_cancer_classifier/blob/main/Demo%20Images/BKL%20Example.png)
+![Melanoma (mel)](https://github.com/tejwani-rahul/skin_cancer_classifier/blob/main/Demo%20Images/Mel%20Example.png)
+![Melanocytic nevi (nv)](https://github.com/tejwani-rahul/skin_cancer_classifier/blob/main/Demo%20Images/nv%20Example.png)
 
-Access the temporary public link or localhost interface for testing.
+
 
 ---
 
@@ -130,12 +129,3 @@ Access the temporary public link or localhost interface for testing.
 
 Confusion matrix and classification reports are included in the notebook outputs.
 
----
-
-## License
-
-This project is provided for educational and research purposes. The HAM10000 dataset is available under a CC BY-NC 4.0 license. Please cite the dataset accordingly when using it.
-
----
-
-If you want me to add any badges, contribution guidelines, or further details, just let me know!
